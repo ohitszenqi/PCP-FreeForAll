@@ -1,0 +1,19 @@
+name: FFA
+main: FFA\Main
+version: 1.0.0
+api: [5.0.0]
+author: Zenqi
+
+depend: [FormAPI]
+
+
+commands:
+  lobby:
+    description: return to lobby
+    permission: lobby.ffa
+
+
+permissions:
+  lobby.ffa:
+    description: return to lobby
+    default: op
